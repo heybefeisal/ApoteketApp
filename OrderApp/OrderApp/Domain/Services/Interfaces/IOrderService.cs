@@ -14,5 +14,6 @@ namespace OrderApp.Domain.Services.Interfaces
         Order EditOrder(int id, OrderRequestDto orderRequestDto);
         bool DeleteOrder(int id);
 
+        Order GetOrder(int id);
     }
 }
